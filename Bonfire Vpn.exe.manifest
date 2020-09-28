@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bonfire Vpn.exe" version="1.0.0.3" publicKeyToken="bb2ec6fdac3d8250" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="vpnfire.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bonfire Vpn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bonfire Vpn.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bonfire Vpn.exe" size="257504">
+      <assemblyIdentity name="Bonfire Vpn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dWBMoY2GedbVxtkPIhe3Tf8jwRInG5XVVFVKXqoz/v4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuButton.dll" size="121328">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuButton" version="1.11.5.1" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NAdwMNBBTEv6Y8vfmvPm3UJYw7lJM12SkLyT2wudJMw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.5.3.dll" size="330752">
+      <assemblyIdentity name="Bunifu_UI_v1.5.3" version="1.5.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>duHT7JX973Srr5A5Ldb0ql40SSKr8R5XJwcofUZ/KTA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bonfire Vpn.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bonfire.ico" size="24884">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gxg/K855zXIwQW8XaCCOuU+9OYv1w5mq6zywHycQgnw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vpnfire.ico" size="29432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JQD4E4GyZYcivzv/lOXQOJveIN6aRvF+gxAcJNJGg8E=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LGLEPCJ\kolop" issuerKeyHash="8b036ea65fee24a309569448a31090834e691a63" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UHRkEyQg2Tsd2mvF5AyZwMZT4T8Iie9ProfSIAoxe1Q=</DigestValue></Reference></SignedInfo><SignatureValue>N3qaSWVOzIYvPe4YGtPiEXIBGz0DwDpQDJfLNLE2ThMrzGKZfyeaN4K3VFqCpKNIiyxKyCORdwpwV9Cf1B0VyYC8qHTwlqKfrW7KIcDfS0tzXRxg/QvJVWCUPresLUCr0nO7JSxKV1sH3YnDYiVWPzObhRHXVzybfo0YLI8O6cI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>omlcMCVRzo6dYg+1nutO4yadbyE5F6OPGo9+mlHmqILxvD5WHvupqxorvghu3JjgUugB83/Rsawoyq/RllmqjnSvOPPg7XayN5tR99MtB0/OJ1jwF0C/sFti6lzkmpkeolbPmO5q6K2YaTL88HIBEaBW+fh34JcKAOIfJRp53jE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="547b310a20d287ae4fef89083fe153c6c0990ce4c56bda1d3bd9202413647450" Description="" Url=""><as:assemblyIdentity name="Bonfire Vpn.exe" version="1.0.0.3" publicKeyToken="bb2ec6fdac3d8250" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LGLEPCJ\kolop</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hO9ftv8PyXaLWMfktoztFuvuTX/ygkUdojjdZPNQWqI=</DigestValue></Reference></SignedInfo><SignatureValue>dWlro4iOJiFVsdSPsnzb2xJLO/dhuMXnj4hd7BVMNw/nsx8zwSeq0vOCQIINaTeIIDW2BCsUlZ6UaMAnB2sdm6eLpyvhBY3YtJYr9c2t8cFdJDR55EJ7+VLpOHBtkoMc2g7uth7S8cDEBqasw5PgbuZHr/4EAoRM4n2LgEhnqps=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>omlcMCVRzo6dYg+1nutO4yadbyE5F6OPGo9+mlHmqILxvD5WHvupqxorvghu3JjgUugB83/Rsawoyq/RllmqjnSvOPPg7XayN5tR99MtB0/OJ1jwF0C/sFti6lzkmpkeolbPmO5q6K2YaTL88HIBEaBW+fh34JcKAOIfJRp53jE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQERWxqriLnJ1FCGlXmOZBazANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwARwBMAEUAUABDAEoAXABrAG8AbABvAHAwHhcNMjAwOTE4MTUwMDQzWhcNMjEwOTE4MjEwMDQzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwARwBMAEUAUABDAEoAXABrAG8AbABvAHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKJpXDAlUc6OnWIPtZ7rTuMmnW8hORejjxqPfppR5qiC8bw+Vh77qasaK74IbtyY4FLoAfN/0bGsKMqv0ZZZqo50rzjz4O12sjebUffTLQdPzidY8BdAv7BbYupc5JqZHqJWz5juauitmGky/PByARGgVvn4d+CXCgDiHyUaed4xAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZp+154RGMlpmwfIqGmQH+rFNGrAI/GZBSpwF93qzSHhoQgDpsLXhY85Uv/QGOJIb/EDm9MMJQialJMO/XB3hSMkefHdaoQZTlzCARwpgX48EGQ3WYVIntdy7CixG4Btz6eVFzW9XjmG0LsZByTl02RvRjzIR61kcQQoXkI8vQkc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
